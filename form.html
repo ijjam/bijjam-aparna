@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form method="get" name="form0" action="Server1Url">
+        <table align="center" bgcolor="white" cellspacing="15px">
+            <caption>
+                <u><h2>Registration Form</h2></u>
+            </caption>
+            <tr>
+                <td><label for="id1">First Name</label></td>
+                <td><input type="text" id="id1" name="first_name" placeholder="Enter first name"></td>
+                <td><label for="id2">Last Name</label></td>
+                <td><input type="text" id="id2" name="last_name" placeholder="Enter last name"></td>
+            </tr>
+            <tr>
+                <td><label for="id3">Email Id</label></td>
+                <td><input type="email" id="id3" name="email" placeholder="Enter email"></td>
+                <td><label for="id4">Mobile</label></td>
+                <td><input type="number" id="id4" name="mobile" placeholder="Mobile number"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </td>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+        
+            <tr>
+                <td><label for="subject">Subject</label></td>
+                <td colspan="4">
+                    <select id="subject" name="subject" style="width: 100%;">
+                        <option value="Choose option">Choose option</option>
+                        <option value="English">English</option>
+                        <option value="Computers">Computers</option>
+                        <option value="Information Tech">Information Tech</option>
+                        <option value="Computer Applications">Computer Applications</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
